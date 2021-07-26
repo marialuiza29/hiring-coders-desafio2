@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mania de Desenho - Clientes</title>
+</head>
+<body>
+    <div class="navigation" id="nav-principal">
+        <a href="index.html">Home</a>
+        <a href="cad_cliente.html" class="nav-active">Clientes</a>
+        <a href="cad_produto.html">Produtos</a>
+        <a href="javascript:void(0);" class="icon" onclick="collapseNav()">
+            <img src="./assets/menu.png" alt="menu"/>
+        </a>
+    </div>
+    <section id="sessao1" class="section-content back3">
+        <div class="register">
+            <h1>Cadastro de Clientes</h1><br>
+            <div id="content-cliente" class="card card-cliente">
+                <form id="form-cliente">
+                    <input type="text" placeholder="Nome" id="nome" autocomplete="off" />
+                    <input type="email" placeholder="E-mail" id="email" autocomplete="off" />
+                    <input type="text" placeholder="Endereço" id="endereco" autocomplete="off" />
+                    <input type="submit" value="Cadastrar" id="btnSend" />
+                </form>
+            </div>
+        </div>
+        <div class="footer-cad">
+            <div class="footer-content">
+                <div>
+                    <p>
+                        Mania de Desenho<br><br>
+                        Todos os direitos reservados.
+                    </p>
+                </div>
+                <div class="social-media">
+                    <a href="https://www.instagram.com/maniadesenho/" target="_blank">
+                        <img src="assets/instagram.png" alt="Instagram">
+                    </a>
+                    <a href="https://github.com/marialuiza29" target="_blank">
+                        <img src="assets/github.png" alt="GitHub">
+                    </a>
+                    <a href="https://www.linkedin.com/in/maria-luiza-santinho/" target="_blank">
+                        <img src="assets/linkedin.png" alt="LinkedIn">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="session-table" class="section-content back3">
+        <div class="register">
+            <h1>Lista de Clientes</h1><br>
+            <div id="content-cliente" class="card card-table">
+                <table id="tabela">
+                </table>
+            </div>
+        </div>
+        <div class="footer-cad">
+            <div class="footer-content">
+                <div>
+                    <p>
+                        Mania de Desenho<br><br>
+                        Todos os direitos reservados.
+                    </p>
+                </div>
+                <div class="social-media">
+                    <a href="https://www.instagram.com/maniadesenho/" target="_blank">
+                        <img src="assets/instagram.png" alt="Instagram">
+                    </a>
+                    <a href="https://github.com/marialuiza29" target="_blank">
+                        <img src="assets/github.png" alt="GitHub">
+                    </a>
+                    <a href="https://www.linkedin.com/in/maria-luiza-santinho/" target="_blank">
+                        <img src="assets/linkedin.png" alt="LinkedIn">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="img-right">
+        <a href="#sessao1">
+            <img src="assets/up.png" alt="Sessão 1">
+        </a>
+    </div>
+<script src="js/script-cliente.js"></script>
+</body>
+</html>
